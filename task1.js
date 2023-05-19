@@ -25,6 +25,7 @@ for (let index = 0; index > numbers.length; index++)
 
 console.log("Task 1: The largest number is"+ maxima);
 
+//Question c
 function MinimaAndMaxima ( arr ) {
     return new MinimaAndMaxima(minima(...arr), maxima(...arr)); 
 }
